@@ -1,0 +1,14 @@
+# pyproject.toml
+
+[build-system]
+# setuptools est l'outil le plus simple pour transformer le dossier en paquet installable
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "loganalyzer"              # Nom du projet
+version = "0.1.0"                 # Version initiale
+requires-python = ">=3.12"        # Version minimale de Python requise
+dependencies = [
+    "requests>=2.32"              # Dépendance principale
+]
